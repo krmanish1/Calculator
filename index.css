@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+     background-color: #c0d8f0;
+     height: 600px;
+  
+    
+ }
+
+ .main{
+    width:100%;
+    height: 600px;
+    background-color: rgb(28, 116, 232);
+    position: relative;
+    /* border: 5px solid rgb(21, 113, 174); */
+    /* border-radius: 6px;  */
+ }
+ .menu{
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 16px; */
+    gap: 8rem;
+ }
+ .sidemenu{
+    display: flex;
+    gap: 8px;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+.clock{
+     margin: 0 2rem;
+
+ }
+ #side_content{
+    display: none;
+    width: 140px;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 10;
+    /* margin-top: %; */
+}
+#side_content .item{
+     padding: 10px 16px;
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: flex-start;
+    gap:16px;
+ }
+#side_content .cross{
+     
+ cursor: pointer;
+    
+    justify-content:flex-end;
+   
+
+ }
+ .main input[type='text'] {
+    width: 80%;
+    position: relative;
+    height: 80px;
+    top: 10px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: none;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:4px;
+    margin-right: 20px;
+ }
+ .btn input[type='button']{
+    border: none;
+    width:20%;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #9dbcea;
+    border-radius: 6px;
+    color: white;
+ }
+ .btn input[type='button']:hover{
+    background-color: rgb(8, 35, 108);
+    color: white;
+ }
+ /* .btn input[type='button']:nth-of-type(odd){
+    background-color: rgb(103, 8, 108);
+    color: white;
+ }
+  */
